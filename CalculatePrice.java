@@ -9,7 +9,7 @@ class CalculatePrice{
       int tyreCost = sc.nextInt();
       int numberOfTyres = sc.nextInt();
       double ans = 0.0;
-      ans = tyreCost / numberOfTyres * 1.0;
+      ans =  1.0 * tyreCost / numberOfTyres;
       ans = ans * 100.0 / 128.0;
       ans = ans - 937.5;
       ans-= 390.63;
