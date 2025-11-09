@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-class CalculatePrice{
+class Main{
   public static void main(String[] args){
 
     Scanner sc = new Scanner(System.in);
@@ -10,7 +10,7 @@ class CalculatePrice{
       int numberOfTyres = sc.nextInt();
       double ans = 0.0;
       ans =  1.0 * tyreCost / numberOfTyres;
-      ans = ans * 100.0 / 128.0;
+      ans = ans * 100.0 / 118.0;
       ans = ans - 937.5;
       ans-= 390.63;
       System.out.println(ans);
